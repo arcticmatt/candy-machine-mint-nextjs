@@ -20,6 +20,8 @@ I had to do some funky stuff to get things to work:
 
 NOTE: these instructions assume an alias of `candy-machine='ts-node /Users/mlim/Documents/software/crypto/solana/metaplex/js/packages/cli/src/candy-machine-cli.ts'`
 
+NOTE: run `nvm use 14.17.0` so that `candy-machine` command works.
+
 ### 1. Prepare NFT assets
 
 See [the docs](https://docs.metaplex.com/create-candy/prepare-assets) for instructions, and [my repo](https://github.com/arcticmatt/candy-machine-example-assets/blob/main/assets/0.json) for example assets. The example assets provided in the docs are out of date, and don't work.
